@@ -2,9 +2,7 @@
 
 A flutter package to create horizontal check point as in image attached
 
-  - Type some Markdown on the left
-  - See HTML in the right
-  - Magic
+![](https://github.com/Entrepreter/horizontal-check-points/images/check_ss.jpeg)
 
 
 ### Installation
