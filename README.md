@@ -1,16 +1,39 @@
-# check_points_example
+# Horizontal Check Points
 
-A new Flutter application.
+A flutter package to create horizontal check point as in image attached
 
-## Getting Started
+  - Type some Markdown on the left
+  - See HTML in the right
+  - Magic
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+### Installation
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+Add the following lines in your pubspec.yaml
+```sh
+dependencies:
+  flutter:
+    sdk: flutter
+    
+  #...
+  check_points:
+    git:
+      url: https://github.com/Entrepreter/horizontal-check-points
+      path: packages/check_points
+```
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### How to use
+
+```sh
+CheckPoints(
+    checkPoints: [
+        "Packing",
+         "Removing",
+         "Arriving",
+         "Delivering",
+        ],
+    checkedTill: 2,
+    )
+```
+
+
