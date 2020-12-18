@@ -2,8 +2,7 @@
 
 A flutter package to create horizontal check point as in image attached
 
-![](https://github.com/Entrepreter/horizontal-check-points/images/check_ss.jpeg)
-
+<img src="images/check_ss.jpeg" alt="Horizontal Check point SS" width="256">
 
 ### Installation
 
